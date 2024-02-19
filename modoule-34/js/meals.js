@@ -16,9 +16,9 @@ const displaymeals = (mealall) => {
   mealsContainer.innerHTML = " ";
   mealall.forEach((meal) => {
     console.log(meal);
-    const add = document.createElement("div");
+    const added = document.createElement("div");
 
-    add.classList.add("col");
+    added.classList.add("col");
     add.innerHTML = `
     <div class="col">
 <div class="card">
