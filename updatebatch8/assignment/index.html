@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <section class="min-h-screen text-center container mx-auto m-4 p-5">
+      <header>
+        <h1 class="text-3xl font-bold underline mb-10">Hello world!</h1>
+
+        <div class="text-3xl flex flex-row justify-between">
+          <div class="font-bold"><span class="text-red-600">PH</span> Tube</div>
+          <div>
+            <button class="btn bg bg-slate-500 text-white">sort by view</button>
+          </div>
+          <div>
+            <button id="myButton" class="btn bg bg-red-600 text-white">
+              bloge
+            </button>
+          </div>
+        </div>
+
+        <div class="border border-gray-400 mt-10"></div>
+      </header>
+      <main>
+        <section>
+          <!-- api get button -->
+
+          <div
+            id="showcatagoryall"
+            class="flex flex-row justify-center gap-10"
+          ></div>
+          <div id="allinfodisplay"></div>
+        </section>
+
+        <!-- card -->
+        <!-- card -->
+        <!-- class="card w-96 bg-base-100 shadow-xl" -->
+        <section>
+          <div>
+            <div
+              id="showdetails"
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 bg-red-500"
+            >
+              <div class="card bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    alt="Shoes"
+                  />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
+    </section>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="ex.js"></script> -->
+    <script src="asignment.js"></script>
+  </body>
+</html>
